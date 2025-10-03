@@ -7,11 +7,10 @@ Original file is located at
     https://colab.research.google.com/drive/1ztIPfXqXvqCtsCpohm_Mmx5c5SIFecZc
 """
 
-#Importamos las librerías
+#!pip install streamlit
 
+# Importamos las librerías
 import streamlit as st
 import pandas as pd
-
-!pip install streamlit
 
 st.title ("Mi Primera Aplicación en Streamlit")
