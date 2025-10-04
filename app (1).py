@@ -19,7 +19,7 @@ st.title ("Mi Primera Aplicación en Streamlit")
 
 # Lista de tickers inicial
 
-lista_tickers = ['AAPL', 'MSFT', 'NVDA', 'META']
+lista_tickers = ["AAPL", "MSFT", "NVDA", "META"]
 
 # Multiselector
 
@@ -28,6 +28,6 @@ ticker=st.multiselect("Elija un ticker o varios", lista_tickers)
 # Boton
 
 if st.button("Descargar"):
-  data=yf.download(ticker, period="1mo")["close"]
-  st.subheader("Precios de Cierre")
+  data=yf.download(ticker, period="1mo")["Close"]
+  st.subheader("📋 Precios de Cierre")
   st.dataframe(data)
