@@ -19,7 +19,7 @@ st.title ("Mi Primera Aplicación en Streamlit")
 
 # Lista de tickers inicial
 
-lista_tickers = ['AAPL', 'MSFT', 'NVDA']
+lista_tickers = ['AAPL', 'MSFT', 'NVDA', 'META']
 
 # Selector
 
