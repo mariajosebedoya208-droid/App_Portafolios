@@ -23,7 +23,7 @@ lista_tickers = ['AAPL', 'MSFT', 'NVDA', 'META']
 
 # Multiselector
 
-ticker=st.multiselec("Elija un ticker o varios", lista_tickers)
+ticker=st.multiselect("Elija un ticker o varios", lista_tickers)
 
 # Boton
 
