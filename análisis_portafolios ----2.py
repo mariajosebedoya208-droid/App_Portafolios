@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1OHRI3VCCTIOc3M4eLd18hLDRVqrlBv_n
 """
 
-!pip install streamlit
+#!pip install streamlit
 
 #Importación las librerías
 
